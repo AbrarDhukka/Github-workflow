@@ -38,7 +38,7 @@ jobs:
         node-version: ['12.x']
         appname: ['aws-codedeploy']
         deploy-group: ['staging']
-        s3-bucket: ['aws-codedeploy-deployments']
+        s3-bucket: ['aws-codedeploy-deployments22']
         s3-filename: ['staging-aws-codedeploy-${{ github.sha }}']
 
     needs: buildAndTest
